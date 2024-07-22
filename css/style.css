@@ -1,0 +1,716 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    a {
+        text-decoration: none;
+    }
+}
+#navbar{
+    z-index: 9999;
+}
+.bg-body-tertiary {
+    background-color: rgba(0, 0, 0, 0.274) !important;
+}
+
+.home {
+    width: 100%;
+    height: 100%;
+    background-image: url(../DevFolio\ images/hero-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 2000px rgba(3, 3, 3, 0.356);
+    display: flex;
+
+}
+
+.navbar-brand {
+    color: #FFFFFF;
+    font-size: 28;
+    font-weight: 600;
+    z-index: 99;
+}
+
+.nav-link {
+    color: #FFFFFF;
+    font-size: 16;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+    font-size: 16;
+    font-weight: 600;
+}
+.nav-bar-main ul li a{
+    transition: all .5s;
+}
+.nav-bar-main ul li a:hover{
+    color: #FFFFFF !important;
+    border-bottom: solid 3px #FFFFFF;
+}
+.hometxt {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    color: #FFFFFF;
+}
+
+.hometxt p {
+    position: relative;
+    font-size: 40;
+    font-weight: 600;
+}
+
+.hometxt p::before {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    content: ' |';
+    animation: typing 10s infinite;
+}
+
+@keyframes typing {
+    0% {
+        content: ' |';
+    }
+
+    1% {
+        content: 'P|';
+    }
+
+    2% {
+        content: 'Po|';
+    }
+
+    3% {
+        content: 'Pot|';
+    }
+
+    4% {
+        content: 'Poto|';
+    }
+
+    5% {
+        content: 'Potog|';
+    }
+
+    6% {
+        content: 'Potogr|';
+    }
+
+    7% {
+        content: 'Potogra|';
+    }
+
+    8% {
+        content: 'Potograp|';
+    }
+
+    9% {
+        content: 'Potograph|';
+    }
+
+    10% {
+        content: 'Potographe|';
+    }
+
+    11% {
+        content: 'Potographer|';
+    }
+
+    16% {
+        content: 'Potographer|';
+    }
+
+    17% {
+        content: 'Potographe|';
+    }
+
+    18% {
+        content: 'Potograph|';
+    }
+
+    19% {
+        content: 'Potograp|';
+    }
+
+    21% {
+        content: 'Potogra|';
+    }
+
+    22% {
+        content: 'Potogr|';
+    }
+
+    23% {
+        content: 'Potog|';
+    }
+
+    24% {
+        content: 'Poto|';
+    }
+
+    25% {
+        content: 'Pot|';
+    }
+
+    26% {
+        content: 'Po|';
+    }
+
+    27% {
+        content: 'P|';
+    }
+
+    29% {
+        content: '|';
+    }
+
+    30% {
+        content: 'D|';
+    }
+
+    31% {
+        content: 'De|';
+    }
+
+    32% {
+        content: 'Des|';
+    }
+
+    33% {
+        content: 'Desi|';
+    }
+
+    34% {
+        content: 'Desig|';
+    }
+
+    35% {
+        content: 'Design|';
+    }
+
+    36% {
+        content: 'Designe|';
+    }
+
+    37% {
+        content: 'Designer|';
+    }
+
+    42% {
+        content: 'Designer|';
+    }
+
+    43% {
+        content: 'Designe|';
+    }
+
+    44% {
+        content: 'Design|';
+    }
+
+    45% {
+        content: 'Desig|';
+    }
+
+    46% {
+        content: 'Desi|';
+    }
+
+    47% {
+        content: 'Des|';
+    }
+
+    48% {
+        content: 'De|';
+    }
+
+    50% {
+        content: 'Dev|';
+    }
+
+    51% {
+        content: 'Deve|';
+    }
+
+    52% {
+        content: 'Devel|';
+    }
+
+    53% {
+        content: 'Develo|';
+    }
+
+    54% {
+        content: 'Develop|';
+    }
+
+    55% {
+        content: 'Develope|';
+    }
+
+    56% {
+        content: 'Developer|';
+    }
+
+    61% {
+        content: 'Developer|';
+    }
+
+    62% {
+        content: 'Develope|';
+    }
+
+    63% {
+        content: 'Develop|';
+    }
+
+    64% {
+        content: 'Develo|';
+    }
+
+    65% {
+        content: 'Devel|';
+    }
+
+    66% {
+        content: 'Deve|';
+    }
+
+    67% {
+        content: 'Dev|';
+    }
+
+    68% {
+        content: 'De|';
+    }
+
+    69% {
+        content: 'D|';
+    }
+
+    72% {
+        content: 'F|';
+    }
+
+    73% {
+        content: 'Fr|';
+    }
+
+    74% {
+        content: 'Fre|';
+    }
+
+    75% {
+        content: 'Free|';
+    }
+
+    76% {
+        content: 'Free|';
+    }
+
+    77% {
+        content: 'FreeL|';
+    }
+
+    78% {
+        content: 'FreeLa|';
+    }
+
+    79% {
+        content: 'FreeLan|';
+    }
+
+    80% {
+        content: 'FreeLanc|';
+    }
+
+    81% {
+        content: 'FreeLance|';
+    }
+
+    82% {
+        content: 'FreeLancer|';
+    }
+
+    89% {
+        content: 'FreeLancer|';
+    }
+
+    90% {
+        content: 'FreeLance|';
+    }
+
+    91% {
+        content: 'FreeLanc|';
+    }
+
+    92% {
+        content: 'FreeLan|';
+    }
+
+    93% {
+        content: 'FreeLa|';
+    }
+
+    94% {
+        content: 'FreeL|';
+    }
+
+    95% {
+        content: 'Free|';
+    }
+
+    96% {
+        content: 'Fre|';
+    }
+
+    97% {
+        content: 'Fr|';
+    }
+
+    98% {
+        content: 'F|';
+    }
+
+    99% {
+        content: '|';
+    }
+}
+
+#aboutme {
+    box-shadow: 0 0 5px .2px #bbb9b996;
+}
+
+.vip {
+    font-weight: 700;
+}
+
+.skill-mf p.title-s {
+    font-weight: 700;
+    font-size: 17.6px !important;
+}
+
+.aboutme h2 {
+    position: relative;
+}
+
+.aboutme h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 100px;
+    height: 3px;
+    background-color: #0078FF;
+}
+
+
+.services .services-main .services-item {
+    box-shadow: 0 0 5px .2px rgba(128, 128, 128, 0.527);
+
+}
+.services p.after{
+    position: relative;
+}
+.services p.after::after {
+    content: "";
+    position: absolute;
+    left: 48%;
+    bottom: -20px;
+    width: 50px;
+    height: 5px;
+    background-color: #0078FF;
+}
+
+.services .services-main .services-item:hover {
+    .services-icons {
+        color: white;
+        background-color: #0078FF;
+        border: solid 10px #CDE1F8;
+    }
+
+}
+
+img {
+    width: 70%;
+}
+
+.services .services-icons {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: solid 10px #0078FF;
+}
+
+#counter {
+
+    background-image: url(../DevFolio\ images/counters-bg.jpg);
+    background-attachment: fixed;
+    position: relative;
+    z-index: 0;
+
+    .overlay {
+        background-color: #0077ff8f;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    .conter-item {
+        z-index: 2;
+    }
+
+    .conter-icon {
+        z-index: 2;
+        width: 100px;
+        height: 100px;
+        border: solid 10px #CDE1F8;
+        border-radius: 50%;
+    }
+
+}
+
+.portfolio-item {
+    box-shadow: 0 0 5px .2px rgba(128, 128, 128, 0.527);
+    padding: 0;
+    overflow: hidden;
+}
+
+.portfolio-item:hover img {
+
+    transition-duration: 1s;
+    transform: scale(1.2);
+}
+.portfolio-txt p.after{
+    position: relative;
+}
+.portfolio-txt p.after::after {
+    content: "";
+    position: absolute;
+    left: 48%;
+    bottom: -20px;
+    width: 50px;
+    height: 5px;
+    background-color: #0078FF;
+}
+.vip2 {
+    color: #0078FF;
+}
+
+.portfolio-txt2 {
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.portfolio-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid 3px #0078FF;
+    color: #0078FF;
+    text-align: center;
+
+    i {
+        font-size: 8px;
+        font-weight: 200;
+        margin-top: 1px;
+    }
+}
+
+
+#slider {
+    width: 100%;
+    height: 80%;
+    background-image: url(../DevFolio\ images/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+    .slider-overlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: #0077ff86;
+    }
+}
+
+.slider-image {
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+#blog {
+    h2 {
+        font-size: 48px !important;
+        font-weight: 700;
+    }
+}
+#blog p.after{
+    position: relative;
+}
+#blog p.after::after {
+    content: "";
+    position: absolute;
+    left: 48%;
+    bottom: -20px;
+    width: 50px;
+    height: 5px;
+    background-color: #0078FF;
+}
+.blog-item {
+    position: relative;
+}
+
+.img-text {
+    position: absolute;
+    left: 38%;
+    right: 40%;
+    bottom: -16px;
+    width: 90px;
+    height: 30px;
+    color: white;
+    background: #0078FF;
+    border-radius: 3px;
+    p{
+        font-size: 13px;
+        margin-top: 4px;
+    }
+}
+
+.info-img {
+    width: 30px;
+    height: 30px;
+}
+
+.blog-txt {
+    a {
+        color: black;
+        transition: all .5s;
+    }
+
+}
+
+.blog-txt:hover a {
+    color: #0078FF;
+}
+
+.info-txt {
+    p {
+        color: black;
+        transition: all .5s;
+    }
+}
+
+.info-txt:hover p {
+    color: #0078FF;
+}
+#form {
+    width: 100%;
+    height: 100%;
+    background-image: url(../DevFolio\ images/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+    .form-overlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: #0077ff86;
+    }
+}
+.input input{
+height: 50px;
+margin-top: 5px;
+margin-bottom: 5px;
+border: solid 1px #DEE2E6;
+}
+.input textarea{
+    border: solid 1px #DEE2E6;
+}
+.form-input h2.after{
+    position: relative;
+}
+.form-input h2.after::after{
+    position: absolute;
+    content: "";
+    left: 0%;
+    bottom: -20px;
+    width: 100px;
+    height: 3px;
+    background-color: #0078FF;
+}
+.input-button{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: #0078FF;
+    border: none ;
+    border-radius: 20px;
+    color: #FFFFFF;
+    padding: 10px;
+    transition: all .2s;
+    width: 200px;
+    height: 50px;
+}
+.input-button:hover{
+    border: solid 2px #0077ff67;
+    background-color: #0077ffb0;
+}
+.fa-li{
+    color: #0078FF;
+}
+.social-media{
+    width: 50px;
+    height: 50px;
+    border: solid 3px #0078FF;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    margin-right: 20px;
+    transition: all .5s;
+}
+.social-media:hover{
+    color: #FFFFFF;
+    background-color: #0078FF;
+    border: solid 3px #BAB6D8;
+}
+.footer-main{
+    background-color: #1367D5;
+}
+.footer-txt{
+    font-size: 16px ;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+a{
+    color: #FFFFFF;
+}
+}
+.vip3{
+    font-weight: 700;
+}
+@media (min-width: 1200px) {
+
+    .h1,
+    h1 {
+        font-size: 72px;
+    }
+}
